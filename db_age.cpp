@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
- //Compiler version g++ 6.3.0
-
-
+// Using the std namespace
 int  main()
 {
 
-      int  age;
+  int  age;
 
-     cout <<  "Enter your age:" << std::  endl;
-     cin >> age;
-     cout <<  "\nYour age is: "  <<age;
+  cout <<  "Enter your age:" <<endl;
+  cin >> age;
+  cout <<  "\nYour age is: "  <<age;
+  cout <<endl;
 
-      return 0;
+  return 0;
 
 }
+
