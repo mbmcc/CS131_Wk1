@@ -22,17 +22,14 @@ Code, Compile, Run and Debug online from anywhere in world.
 int  main()
 {
   int radius = 0;
-  int diameter = 0;
-  int circumference = 0;
-  int area = 0;
   const double PI = 3.14159; // pi 
-  
-  std::cout << "What is the radius of the Circle?" << std::endl;
+
+  std::cout << "What is the radius of the Circle?" << "\n";
   std::cin >> radius;
-  std::cout << "The radius is " << radius << std::endl;
-  std::cout << "The diameter is " << 2 * radius << std::endl;
-  std::cout << "The circumference is " << 2 * PI * radius << std::endl;
-  std::cout << "The area is " << PI * radius * radius << std::endl;
+  std::cout << "The radius is " << radius << "\n";
+  std::cout << "The diameter is " << 2 * radius << "\n";
+  std::cout << "The circumference is " << 2 * PI * radius << "\n";
+  std::cout << "The area is " << PI * radius * radius << "\n";
   
   return 0;
 
